@@ -1,11 +1,7 @@
-.vercel
+.vercel/
 .next/
 node_modules/
 .env*
 !.env.example
-!.env.example
 *.tsbuildinfo
 artifacts/
-.env*
-
-!.env.example

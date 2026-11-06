@@ -2113,6 +2113,16 @@ textarea::placeholder {
   }
 }
 
-.filter-tabs { scrollbar-width: none; }
-.filter-tabs::-webkit-scrollbar { display: none; }
-@media (max-width:760px) { .welcome-line,.site-footer,.photo-label { font-size:.7rem; } }
+.filter-tabs {
+  scrollbar-width: none;
+}
+.filter-tabs::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 760px) {
+  .welcome-line,
+  .site-footer,
+  .photo-label {
+    font-size: 0.7rem;
+  }
+}

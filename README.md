@@ -58,4 +58,4 @@ pnpm build
 
 `node --env-file=.env.local scripts/verify-flow.mjs` ist ein Integrationstest mit synthetischen Konten, einem temporären Eintrag und einem echten Foto-Upload. Er ist nur vor der Übernahme durch den echten Autor vorgesehen. Er prüft Rollen, Entwürfe, Kommentare, Korrekturen, Verlauf und Konflikte; temporäre Einträge und hochgeladene Testbilder werden entfernt.
 
-Synthetische QA-Konten können zur Nachprüfung in Neon Auth verbleiben; Testsitzungen werden abgemeldet. Vor einem erneuten Testlauf muss `artifacts/qa-account.json` mit einem neuen synthetischen Testkonto erstellt werden. Keine Zugangsdaten in Git oder Deployment-Artefakte übernehmen.
+Synthetische QA-Konten können zur Nachprüfung in Neon Auth verbleiben; Testsitzungen werden abgemeldet. Keine Zugangsdaten in Git oder Deployment-Artefakte übernehmen.

@@ -51,7 +51,7 @@ try {
     0,
     "Run only before the real owner claims this diary.",
   );
-  reader = JSON.parse(await readFile("artifacts/qa-account.json", "utf8"));
+  reader = await account("QA Leser");
   owner = await account("QA Autor");
   await call("claim", { secret: process.env.OWNER_SETUP_SECRET }, owner);
   assert.equal((await call("me", null, owner)).user.owner, true);
